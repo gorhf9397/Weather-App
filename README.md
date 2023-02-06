@@ -24,16 +24,16 @@ JavaScript 는 운영체제를 상대로 메세지를 주고받기 위한 레이
 
 # 개발환경 오류
 zsh: command not found: expo 오류
-npm i expo 로 설치 했을때 npm bin -g 명령어의 경로 가 글로벌변수로 나오지않음
-npm install --global expo-cli 로 설치 하려 했으나 Error: EACCES: permission denied, 라는 error
-자신의 계정 홈 경로에 npm global 설치 패키지 디렉토리를 만들고 글로벌 설치시에 해당 경로로 패키지가 설치 되도록 하는 방법으로
-mkdir ~/.npm-global
-npm config set prefix '~/.npm-global'
-디렉토리 추가 해주고
-vi ~/.profile
-export PATH=~/.npm-global/bin:$PATH 환경변수 설정추가
-그다음 npm bin -g 확인했으나
-npm ERR! bin (not in PATH env variable) 에러뜸
-stack-overfloew 발췌 
-https://stackoverflow.com/questions/35540692/why-wont-my-npm-package-commands-work
-export PATH=$PATH:`npm bin -g` 명령어 추가로 해결
+npm i expo 로 설치 했을때 npm bin -g 명령어의 경로 가 글로벌변수로 나오지않음 <p>
+npm install --global expo-cli 로 설치 하려 했으나 Error: EACCES: permission denied, 라는 error<p>
+자신의 계정 홈 경로에 npm global 설치 패키지 디렉토리를 만들고 글로벌 설치시에 해당 경로로 패키지가 설치 되도록 하는 방법으로<p>
+mkdir ~/.npm-global<p>
+npm config set prefix '~/.npm-global'<p>
+디렉토리 추가 해주고<p>
+vi ~/.profile<p>
+export PATH=~/.npm-global/bin:$PATH 환경변수 설정추가<p>
+그다음 npm bin -g 확인했으나<p>
+npm ERR! bin (not in PATH env variable) 에러뜸<p>
+stack-overfloew 발췌 <p>
+https://stackoverflow.com/questions/35540692/why-wont-my-npm-package-commands-work<p>
+export PATH=$PATH:`npm bin -g` 명령어 추가로 해결<p>
