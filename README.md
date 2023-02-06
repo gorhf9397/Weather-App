@@ -26,7 +26,7 @@ JavaScript 는 운영체제를 상대로 메세지를 주고받기 위한 레이
 zsh: command not found: expo 오류
 npm i expo 로 설치 했을때 npm bin -g 명령어의 경로 가 글로벌변수로 나오지않음 <p>
 npm install --global expo-cli 로 설치 하려 했으나 Error: EACCES: permission denied, 라는 error<p>
-자신의 계정 홈 경로에 npm global 설치 패키지 디렉토리를 만들고 글로벌 설치시에 해당 경로로 패키지가 설치 되도록 하는 방법으로<p>
+자신의 계정 홈 경로에 npm global 설치 패키지 디렉토리를 만들고 글로벌 설치시에 해당 경로로 패키지가 설치 되도록 하는 방법으로 해결<p>
 mkdir ~/.npm-global<p>
 npm config set prefix '~/.npm-global'<p>
 디렉토리 추가 해주고<p>
