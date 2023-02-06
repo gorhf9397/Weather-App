@@ -22,6 +22,7 @@ JavaScript 는 운영체제를 상대로 메세지를 주고받기 위한 레이
 
 하지만 모든 인프라는 필요함 Android-Java, iOS - Objective-C , Swift 로 만들어짐
 
+# 개발환경 오류
 zsh: command not found: expo 오류
 npm i expo 로 설치 했을때 npm bin -g 명령어의 경로 가 글로벌변수로 나오지않음
 npm install --global expo-cli 로 설치 하려 했으나 Error: EACCES: permission denied, 라는 error
