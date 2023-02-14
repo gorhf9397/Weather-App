@@ -1,6 +1,6 @@
 # Weather-App 현재위치 날씨 프로젝트
 # 구동화면
-<img src="https://user-images.githubusercontent.com/108771927/218636706-c0866cf0-0952-417c-8071-ef6c6101d7bb.gif">
+<img src="https://user-images.githubusercontent.com/108771927/218636706-c0866cf0-0952-417c-8071-ef6c6101d7bb.gif" width="216" height="480">
 
 # information
 <img src="https://user-images.githubusercontent.com/108771927/216899008-b0afbc2c-b4aa-4487-94c3-c847a1dbc41a.png" width="500" height="350">
