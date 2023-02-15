@@ -1,4 +1,6 @@
 # Weather-App 현재위치 날씨 프로젝트
+## 배포URL
+https://expo.dev/@seokgeun/Weather-App
 # 구동화면
 <img src="https://user-images.githubusercontent.com/108771927/218636706-c0866cf0-0952-417c-8071-ef6c6101d7bb.gif" width="216" height="480">
 
